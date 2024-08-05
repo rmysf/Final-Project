@@ -4,13 +4,11 @@ function hitungRataRataDanGrade(
     nilaiStatistika: number, 
     nilaiBasisData: number
 ): void {
-    // Validasi bahwa semua nilai harus diisi dan bukan null
     if (nilaiWeb == null || nilaiKomputer == null || nilaiStatistika == null || nilaiBasisData == null) {
         console.log("Semua nilai harus diisi dan tidak boleh null!");
         return;
     }
     
-    // Validasi bahwa semua nilai harus dalam rentang 0 - 100
     if (
         nilaiWeb < 0 || nilaiWeb > 100 || 
         nilaiKomputer < 0 || nilaiKomputer > 100 || 
@@ -21,10 +19,8 @@ function hitungRataRataDanGrade(
         return;
     }
 
-    // Menghitung rata-rata
     let rataRata = (nilaiWeb + nilaiKomputer + nilaiStatistika + nilaiBasisData) / 4;
 
-    // Menentukan grade
     let grade: string;
     if (rataRata >= 90) {
         grade = 'A';
@@ -38,7 +34,6 @@ function hitungRataRataDanGrade(
         grade = 'E';
     }
 
-    // Menampilkan hasil
     console.log(`Rata-rata: ${rataRata.toFixed(2)}`);
     console.log(`Grade: ${grade}`);
 }
