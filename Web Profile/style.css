@@ -303,10 +303,7 @@ section{
     transform: translateY(20px);
 }
 
-.about-content h3{
-    font-size: 2rem;
-    transform: translateY(-10px);
-}
+
 
 .about-content p{
     font-size: 1.6rem;
@@ -354,12 +351,13 @@ h2 {
 
 .services-section h3 {
     color: var(--text-color3);
-    font-size: 15px;
-    margin: 10px 0;
+    font-size: 25px;
+    margin: 20px 0;
 }
 
 .services-section p{
     color: var(--text-color3);
+    font-size: 15px;
 }
 
 
@@ -395,6 +393,6 @@ footer {
 }
 
 .footer-copyright {
-    font-size: 0.9em;
+    font-size: 1.0em;
     transform: translateY(50px);
 }
