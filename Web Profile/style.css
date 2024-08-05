@@ -267,7 +267,7 @@ section{
     align-items: center;
     height: 50%;
     position: relative;
-    transform: translateX(270px);
+    transform: translateX(390px);
 }
 
 .home-img img{
@@ -275,7 +275,7 @@ section{
     width: 100%;
     height: auto;
     pointer-events: none;
-    transform: scale(1.4);
+    transform: scale(1.3);
 }
 
 .about{
@@ -302,7 +302,6 @@ section{
     line-height: 1.2;
     transform: translateY(20px);
 }
-
 
 
 .about-content p{
@@ -358,6 +357,7 @@ h2 {
 .services-section p{
     color: var(--text-color3);
     font-size: 15px;
+    padding: 10px;
 }
 
 
