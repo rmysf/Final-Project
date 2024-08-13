@@ -68,7 +68,7 @@ let lirik_lagu = {
   let updatedData = {
     ...lirik_lagu.data,
     artist: "Rama",
-    songTitle: "Kapal Lawd"
+    songTitle: "Pengusaha Bisnis"
   };
   
   console.log(updatedData);

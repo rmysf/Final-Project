@@ -1,12 +1,13 @@
 let lirik_lagu:
+let untuk mendeklarasikan variabel
 Objek lirik_lagu berisi informasi mengenai lagu termasuk status, nama artis, judul lagu, lirik lengkap lagu, dan array dari setiap baris lirik
 
  let updatedData = {
     ...lirik_lagu.data,
     artist: "Rama",
-    songTitle: "Kapal Lawd"
+    songTitle: "Pengusaha Bisnis"
   };
-updatedData adalah objek baru yang dibuat dengan menyebarkan (...) properti dari lirik_lagu.data dan kemudian memperbarui nilai artist menjadi "Rama" dan songTitle menjadi "Kapal Lawd".
+updatedData adalah objek baru yang dibuat dengan menyebarkan (...) properti dari lirik_lagu.data dan kemudian memperbarui nilai artist menjadi "Rama" dan songTitle menjadi "Pengusaha Bisnis".
 
 Operator spread (...) digunakan untuk menyalin properti dari objek lama ke objek baru dan kemudian memperbarui beberapa propertinya.
 

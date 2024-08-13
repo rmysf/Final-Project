@@ -65,9 +65,7 @@ let lirik_lagu = {
         ]
     }
 };
-// Mengubah data
-let updatedData = Object.assign(Object.assign({}, lirik_lagu.data), { artist: "Rama", songTitle: "Kapal Lawd" });
+let updatedData = Object.assign(Object.assign({}, lirik_lagu.data), { artist: "Rama", songTitle: "Pengusaha Bisnis" });
 console.log(updatedData);
-// Ambil lirik yang sesuai
 let songLyricsLine = lirik_lagu.data.songLyricsArr.find(line => line.includes("For me to take what's mine, until the end of time?"));
 console.log(songLyricsLine);
